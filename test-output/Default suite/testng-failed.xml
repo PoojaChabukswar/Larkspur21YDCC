@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.facebook.Facebook">
+      <class name="com.facebook.Travel">
         <methods>
-          <include name="setUp"/>
-          <include name="verifySignUp"/>
+          <include name="verifyPickupPoint"/>
         </methods>
-      </class> <!-- com.facebook.Facebook -->
+      </class> <!-- com.facebook.Travel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
