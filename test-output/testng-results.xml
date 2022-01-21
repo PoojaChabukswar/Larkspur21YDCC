@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32950" started-at="2022-01-20T22:14:27 IST" finished-at="2022-01-20T22:14:59 IST">
+  <suite name="Default suite" duration-ms="22367" started-at="2022-01-21T20:49:00 IST" finished-at="2022-01-21T20:49:23 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32950" started-at="2022-01-20T22:14:27 IST" finished-at="2022-01-20T22:14:59 IST">
+    <test name="Default test" duration-ms="22367" started-at="2022-01-21T20:49:00 IST" finished-at="2022-01-21T20:49:23 IST">
       <class name="com.resonance.homepage.HomePageTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.resonance.homepage.HomePageTests@103f852]" name="setUp" is-config="true" duration-ms="24448" started-at="2022-01-20T22:14:27 IST" finished-at="2022-01-20T22:14:51 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.resonance.homepage.HomePageTests@103f852]" name="setUp" is-config="true" duration-ms="16103" started-at="2022-01-21T20:49:00 IST" finished-at="2022-01-21T20:49:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyClickOnjoinMeeting()[pri:0, instance:com.resonance.homepage.HomePageTests@103f852]" name="verifyClickOnjoinMeeting" duration-ms="7747" started-at="2022-01-20T22:14:51 IST" finished-at="2022-01-20T22:14:59 IST">
+        <test-method status="PASS" signature="verifyClickOnjoinMeeting()[pri:0, instance:com.resonance.homepage.HomePageTests@103f852]" name="verifyClickOnjoinMeeting" duration-ms="5475" started-at="2022-01-21T20:49:16 IST" finished-at="2022-01-21T20:49:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickOnjoinMeeting -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.resonance.homepage.HomePageTests@103f852]" name="tearDown" is-config="true" duration-ms="691" started-at="2022-01-20T22:14:59 IST" finished-at="2022-01-20T22:14:59 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.resonance.homepage.HomePageTests@103f852]" name="tearDown" is-config="true" duration-ms="715" started-at="2022-01-21T20:49:22 IST" finished-at="2022-01-21T20:49:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -33,7 +33,7 @@ public class Keyword {
 	 * 
 	 */
 
-	public static void openBrowser(String browserName) {
+	public static RemoteWebDriver openBrowser(String browserName) {
 		if (browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -48,6 +48,7 @@ public class Keyword {
 		}
 		LOG.info(browserName+" is launch successfully");
 		wait=new WebDriverWait(driver, Duration.ofSeconds(30));
+		return driver;
 	}
 	
 	public static void quitBrowser() {
@@ -86,7 +87,10 @@ public class Keyword {
 		element.click();
 
 	}
-	
+	/**
+	 * 
+	 * @param duration is in milliseconds
+	 */
 	public static void waitFor(long duration) {
 		try {
 			Thread.sleep(duration);
