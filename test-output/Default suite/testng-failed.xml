@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.facebook.Travel">
+      <class name="com.resonance.homepage.HomePageTests">
         <methods>
-          <include name="verifyPickupPoint"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyClickOnjoinMeeting"/>
         </methods>
-      </class> <!-- com.facebook.Travel -->
+      </class> <!-- com.resonance.homepage.HomePageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
