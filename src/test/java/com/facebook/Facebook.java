@@ -9,7 +9,7 @@ import com.resonance.config.BaseFramework;
 import com.resonance.constants.LocatorType;
 import com.resonance.utility.Keyword;
 
-public class Facebook extends BaseFramework  {
+public class Facebook   {
 	@Test
 	public  void verifySignUp()  {
 		// Keyword.openBrowser("chrome");

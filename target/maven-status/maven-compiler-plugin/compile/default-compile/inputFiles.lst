@@ -1,5 +1,12 @@
 C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\config\BaseFramework.java
 C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\constants\LocatorType.java
 C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\utility\Keyword.java
+C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\pages\PageBase.java
+C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\stepdefinitions\Parameterization.java
+C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\stepdefinitions\FirstStepDefinition.java
+C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\config\Config.java
+C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\pages\JoinMeetingPage.java
+C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\stepdefinitions\HomePageSteps.java
 C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\constants\Locator.java
 C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\utility\PropUtil.java
+C:\Program Files\eclipse- workspace\Resonance\src\main\java\com\resonance\pages\HomePage.java

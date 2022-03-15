@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 11.693 s <<< FAILURE! - in TestSuite
+runScenario(com.cucumbertest.runner.RunnerTest)  Time elapsed: 0.783 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(com.cucumbertest.runner.RunnerTest)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(com.cucumbertest.runner.RunnerTest)  Time elapsed: 0.201 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I have 7 and 5' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("I have {int} and {int}")
+public void i_have_and(Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+verifyClickOnjoinMeeting(com.resonance.homepage.HomePageTests)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.resonance.homepage.HomePageTests.verifyClickOnjoinMeeting(HomePageTests.java:17)
+
