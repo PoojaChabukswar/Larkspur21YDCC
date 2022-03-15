@@ -32,4 +32,10 @@ public class HomePage extends PageBase {
         LOG.info("click on logo");
 	}
 
+	public String getTitle() {
+		return driver.getTitle();
+	}
+
+	
+
 }

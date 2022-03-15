@@ -29,5 +29,7 @@ public class Travel {
 		waitFor(3000);
 
 	}
+	
+	
 
 }
